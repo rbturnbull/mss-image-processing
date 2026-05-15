@@ -1,23 +1,9 @@
 # Practical Image Processing for Manuscripts on the Command Line
 
-This is a single-page Quarto website version of the conference paper/tutorial.
+This page outlines code from a paper that Robert Turnbull gave at the [61st International Congress on Medieval Studies](https://wmich.edu/medievalcongress).
 
-## Preview locally
+Over the years, I’ve had to learn a variety of techniques for processing manuscript images using open-source software, and I hope that some of the tips and tricks I share will be useful for you as well. You do not need to work specifically with manuscript images to benefit from these tools. Many of the techniques I discuss are also useful for working with digital images of printed documents and other archival materials.
 
-```bash
-quarto preview
-```
+More information will be provided in the published version of this paper.
 
-## Render
-
-```bash
-quarto render
-```
-
-The rendered website will be written to `docs/`, as configured in `_quarto.yml`.
-
-## Publish on GitHub Pages
-
-1. Push this repository to GitHub.
-2. In the repository settings, enable GitHub Pages and choose GitHub Actions as the source.
-3. Push to the `main` branch, or run the publish workflow manually from the Actions tab.
+See the tutorial here: https://rbturnbull.github.io/mss-image-processing/
