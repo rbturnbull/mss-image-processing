@@ -1,6 +1,6 @@
 # Practical Image Processing for Manuscripts on the Command Line
 
-This is a Quarto website version of the conference paper/tutorial.
+This is a single-page Quarto website version of the conference paper/tutorial.
 
 ## Preview locally
 

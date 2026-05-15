@@ -1,17 +1,11 @@
 project:
   type: website
   output-dir: docs
+  render:
+    - index.qmd
 
 website:
   title: "Practical Image Processing for Manuscripts"
-  navbar:
-    left:
-      - href: index.qmd
-        text: Home
-      - href: manuscript-processing.qmd
-        text: Tutorial
-      - href: setup.qmd
-        text: Setup
 
 format:
   html:
