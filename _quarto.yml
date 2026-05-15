@@ -1,0 +1,28 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Practical Image Processing for Manuscripts"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: manuscript-processing.qmd
+        text: Tutorial
+      - href: setup.qmd
+        text: Setup
+
+format:
+  html:
+    toc: true
+    toc-depth: 3
+    code-copy: true
+    code-overflow: wrap
+    theme: cosmo
+    fig-cap-location: bottom
+
+execute:
+  eval: false
+  echo: true
+  freeze: auto

@@ -1,0 +1,21 @@
+# Quarto local state and execution cache
+.quarto/
+_freeze/
+docs/
+
+# Local Python environments
+.venv/
+venv/
+env/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+/.quarto/

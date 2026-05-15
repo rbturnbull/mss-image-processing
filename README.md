@@ -19,5 +19,5 @@ The rendered website will be written to `docs/`, as configured in `_quarto.yml`.
 ## Publish on GitHub Pages
 
 1. Push this repository to GitHub.
-2. Run `quarto render` locally, or use a GitHub Actions workflow to render it.
-3. In the repository settings, enable GitHub Pages and choose the `docs/` folder on the main branch.
+2. In the repository settings, enable GitHub Pages and choose GitHub Actions as the source.
+3. Push to the `main` branch, or run the publish workflow manually from the Actions tab.
