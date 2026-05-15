@@ -1,0 +1,41 @@
+---
+title: "Setup"
+---
+
+The tutorial uses Unix-style command-line tools. The examples should run directly on Linux and macOS. Windows users can use Windows Subsystem for Linux, Git Bash, Cygwin, or adapt the commands to PowerShell.
+
+## Core tools
+
+```{bash}
+# macOS
+brew install wget imagemagick poppler
+```
+
+```{bash}
+# Debian/Ubuntu Linux
+sudo apt install wget imagemagick poppler-utils python3-venv
+```
+
+## Python environment
+
+```{bash}
+python3 -m venv .venv
+source .venv/bin/activate
+pip install msstools deskew
+```
+
+## Quarto preview
+
+```{bash}
+quarto preview
+```
+
+## Publish with GitHub Pages
+
+Render the site into the `docs/` directory:
+
+```{bash}
+quarto render
+```
+
+Then configure GitHub Pages to serve from the `docs/` folder on your main branch.

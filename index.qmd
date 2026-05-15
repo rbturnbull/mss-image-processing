@@ -1,0 +1,15 @@
+---
+title: "Practical Image Processing for Manuscripts on the Command Line"
+subtitle: "Conference tutorial code and workflow"
+author: "Robert Turnbull"
+---
+
+This site accompanies the conference paper *Practical Image Processing for Manuscripts on the Command Line*.
+It presents the command-line workflow as a reproducible Quarto tutorial, with copyable Bash commands for downloading, splitting, deskewing, cropping, enhancing, combining, and extracting manuscript images.
+
+## Contents
+
+- [Tutorial](manuscript-processing.qmd): the full workflow from the paper.
+- [Setup](setup.qmd): software installation notes for macOS, Linux, and Windows.
+
+The examples use Jerusalem Agios Stavros 26, an eleventh-century Greek-Arabic lectionary available through the Library of Congress.
