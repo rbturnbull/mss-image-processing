@@ -12,8 +12,11 @@ format:
     toc: true
     toc-depth: 3
     code-copy: true
+    code-line-numbers: true
     code-overflow: wrap
     theme: cosmo
+    highlight-style: github
+    css: styles.css
     fig-cap-location: bottom
 
 execute:

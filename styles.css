@@ -1,0 +1,6 @@
+pre.numberSource code > span > a:first-child::before {
+  background-color: #eef2f7;
+  color: #5f6f82;
+  border-right: 1px solid #d5dde7;
+}
+

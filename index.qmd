@@ -7,6 +7,7 @@ format:
   html:
     toc: true
     code-copy: true
+    code-line-numbers: true
 execute:
   eval: false
 ---
@@ -160,7 +161,7 @@ msstools split-images \
 The result is a set of single-page images with folio numbers in the filenames.
 
 ::: {#fig-split layout-ncol=2}
-![Left page: `Stavros26-split/Stavros26-505-248v.jpg`.](assets/media/image3.jpeg)
+![Left page:<br> `Stavros26-split/Stavros26-505-248v.jpg`.](assets/media/image3.jpeg)
 
 ![Right page: `Stavros26-split/Stavros26-506-250r.jpg`.](assets/media/image4.jpeg)
 
